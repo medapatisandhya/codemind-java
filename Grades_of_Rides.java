@@ -4,34 +4,33 @@ public class Grade
     public static void main(String args[])
     {
         Scanner sc = new Scanner(System.in);
-        int x,y,z;
-        x=sc.nextInt();
-        y=sc.nextInt();
-        z=sc.nextInt();
-        if(x>50 && y>60 && z>100)
+        int a,b,c;
+        a=sc.nextInt();
+        b=sc.nextInt();
+        c=sc.nextInt();
+        if(a>50 && b>60 && c>100)
         {
             System.out.println(10);
         }
-        else if(x>50 && y>60)
+        else if(a>50 && b>60)
         {
             System.out.println(9);
         }
-        else if(y>60 && z>100)
+        else if(b>60 && c>100)
         {
             System.out.println(8);
         }
-        else if(x>50 &&  z>100)
+        else if(a>50 &&  c>100)
         {
             System.out.println(7);
         }
-        else if(x>50 || y>60 || z>100)
+        else if(a>50 || b>60 || c>100)
         {
             System.out.println(6);
         }
-        else 
+        else
         {
             System.out.println(5);
         }
-        
     }
 }
