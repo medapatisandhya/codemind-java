@@ -1,13 +1,13 @@
 import java.util.Scanner;
-public class Number
+public class Equal
 {
     public static void main(String args[])
     {
         Scanner sc = new Scanner(System.in);
-        int x,y;
-        x=sc.nextInt();
-        y=sc.nextInt();
-        if(x%2==0 && (x>0||y%2==0))
+        int a,b;
+        a=sc.nextInt();
+        b=sc.nextInt();
+        if(a%2==0 && (a>0||b%2==0))
         {
             System.out.println("YES");
         }
